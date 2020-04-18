@@ -1,1 +1,29 @@
 // Mixins Here
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.button(@background-color, @color){
+    background-color: @background-color;
+    color: @color;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+	border-radius: 1rem;
+    margin: 1rem 0;
+    width: 35%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-phone {
+    width: 100%;
+    padding: 2.8rem;
+    border-radius: .5rem;
+}
