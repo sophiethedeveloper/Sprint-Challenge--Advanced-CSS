@@ -236,6 +236,19 @@ p {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 0.1rem solid #22283A;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  width: 40%;
+  font-weight: 600;
+  cursor: pointer;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
