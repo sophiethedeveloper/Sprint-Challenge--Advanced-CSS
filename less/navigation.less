@@ -4,17 +4,27 @@
     .flex-center();
     flex-direction: column;
     background-color: @wild-sand;
-    padding: 2rem;;
+    padding: 2rem;
 
     .navigation-title {
         h1 {
             font-size: 5rem;
+        }
+
+        @media @phone {
+            h1 {
+                font-size: 4rem;
+            }
         }
     }
 
     .navbar {
         width: 35%;
         padding: 1.5rem 0 0 0;
+
+        @media @phone {
+            width: 80%;
+        }
         .nav-links{
             .flex();
             justify-content: space-between;
