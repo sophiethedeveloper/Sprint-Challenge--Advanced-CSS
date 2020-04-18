@@ -176,11 +176,13 @@ p {
 }
 .navigation {
   width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #F6F6F6;
+  background-color: rgba(246, 246, 246, 0.9);
   padding: 2rem;
 }
 .navigation .navigation-title h1 {
@@ -209,6 +211,9 @@ p {
   font-size: 1.8rem;
   color: #454A59;
   font-weight: 600;
+}
+.scroll {
+  margin-top: 125px;
 }
 .home .intro .main-header .main-picture {
   border-radius: 1rem;
@@ -268,7 +273,7 @@ p {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
-    padding: 20px 15px;
+    margin: 20px 0;
   }
 }
 .home .walk .walk-text h3 {
